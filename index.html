@@ -16,9 +16,17 @@
         <div class="imagenHeader">
           <img src="img/logoVimeo.svg" alt="Logo de Vimeo" id="logo" />
         </div>
+        <div class="navLinks">
+          <a href="#" class="navLink">Product <span class="dropdown-arrow">▼</span></a>
+          <a href="#" class="navLink">Solutions <span class="dropdown-arrow">▼</span></a>
+          <a href="#" class="navLink">Learn <span class="dropdown-arrow">▼</span></a>
+          <a href="#" class="navLink">Pricing</a>
+          <a href="#" class="navLink">Watch</a>
+        </div>
         <div class="opcionesHeader">
+          <button id="botonContactSales">Contact Sales</button>
           <button id="botonLogin">Log in</button>
-          <button id="botonJoin">Join</button>
+          <button id="botonJoin">Join <span class="arrow">→</span></button>
           <img
             src="img/botonOpciones.svg"
             alt="Boton con las opciones del menu"
@@ -51,6 +59,7 @@
         </div>
         <div class="videoLogo">
           <img src="img/play_video.svg" alt="" />
+          <span>See why millions love Vimeo</span>
         </div>
       </div>
       <h2 id="subtitulo2">
@@ -113,61 +122,71 @@
         <h2 id="subtituloVideoStrategy">
           The platform that powers your video strategy
         </h2>
-        <video autoplay loop muted>
-          <source src="img/video/video1.mp4" type="video/mp4" />
-        </video>
-        <div class="textovideoStrategy">
-          <div class="spanimg">
-            <span>Host in high quality, ad‑free</span>
-            <img src="img/arrow_white.svg" alt="" />
+        <div class="videoStrategyGrid">
+          <div class="videoStrategyItem">
+            <video autoplay loop muted>
+              <source src="img/video/video1.mp4" type="video/mp4" />
+            </video>
+            <div class="textovideoStrategy">
+              <div class="spanimg">
+                <span>Host in high quality, ad‑free</span>
+                <img src="img/arrow_white.svg" alt="" />
+              </div>
+              <p>
+                Ensure your videos play in their highest resolution, always ad-free.
+                No competitor distractions or random suggestions here.
+              </p>
+            </div>
           </div>
-          <p>
-            Ensure your videos play in their highest resolution, always ad-free.
-            No competitor distractions or random suggestions here.
-          </p>
-        </div>
-        <video autoplay loop muted>
-          <source src="img/video/video2.mp4" type="video/mp4" />
-        </video>
-        <div class="textovideoStrategy">
-          <div class="spanimg">
-            <span>Collaborate with anyone</span>
-            <img src="img/arrow_white.svg" alt="" />
+          <div class="videoStrategyItem">
+            <video autoplay loop muted>
+              <source src="img/video/video2.mp4" type="video/mp4" />
+            </video>
+            <div class="textovideoStrategy">
+              <div class="spanimg">
+                <span>Collaborate with anyone</span>
+                <img src="img/arrow_white.svg" alt="" />
+              </div>
+              <p>
+                Share cuts for review, get granular with time-coded comments, and
+                manage version history in one organized library.
+              </p>
+            </div>
           </div>
-          <p>
-            Share cuts for review, get granular with time-coded comments, and
-            manage version history in one organized library.
-          </p>
-        </div>
-        <video autoplay loop muted>
-          <source src="img/video/video3.mp4" type="video/mp4" />
-        </video>
-        <div class="textovideoStrategy">
-          <div class="spanimg">
-            <span>Embed anywhere</span>
-            <img src="img/arrow_white.svg" alt="" />
+          <div class="videoStrategyItem">
+            <video autoplay loop muted>
+              <source src="img/video/video3.mp4" type="video/mp4" />
+            </video>
+            <div class="textovideoStrategy">
+              <div class="spanimg">
+                <span>Embed anywhere</span>
+                <img src="img/arrow_white.svg" alt="" />
+              </div>
+              <p>
+                Drive traffic to your website with Vimeo's customizable, embeddable
+                player. Share across social channels in seconds.
+              </p>
+            </div>
           </div>
-          <p>
-            Drive traffic to your website with Vimeo’s customizable, embeddable
-            player. Share across social channels in seconds.
-          </p>
-        </div>
-        <video autoplay loop muted>
-          <source src="img/video/video4.mp4" type="video/mp4" />
-        </video>
-        <div class="textovideoStrategy">
-          <div class="spanimg">
-            <span>Keep videos secure</span>
-            <img src="img/arrow_white.svg" alt="" />
+          <div class="videoStrategyItem">
+            <video autoplay loop muted>
+              <source src="img/video/video4.mp4" type="video/mp4" />
+            </video>
+            <div class="textovideoStrategy">
+              <div class="spanimg">
+                <span>Keep videos secure</span>
+                <img src="img/arrow_white.svg" alt="" />
+              </div>
+              <p>
+                Keep your content secure with granular access management and
+                advanced privacy settings like password protection.
+              </p>
+            </div>
           </div>
-          <p>
-            Keep your content secure with granular access management and
-            advanced privacy settings like password protection.
-          </p>
-        </div>
-        <video autoplay loop muted>
-          <source src="img/video/video5.mp4" type="video/mp4" />
-        </video>
+          <div class="videoStrategyItem">
+            <video autoplay loop muted>
+              <source src="img/video/video5.mp4" type="video/mp4" />
+            </video>
         <div class="textovideoStrategy">
           <div class="spanimg">
             <span>Sell your content</span>
@@ -178,6 +197,8 @@
             with simple tools that adjust to your business model.
           </p>
         </div>
+          </div>
+          <div class="videoStrategyItem">
         <img src="img/video/poster_video_6.avif" alt="" id="imagenVideo6" />
         <div class="textovideoStrategy">
           <div class="spanimg">
@@ -186,8 +207,10 @@
           </div>
           <p>
             Host virtual events, webinars, live broadcasts, and more with
-            Vimeo’s suite of easy-to-use live streaming tools.
+            Vimeo's suite of easy-to-use live streaming tools.
           </p>
+        </div>
+          </div>
         </div>
       </section>
       <div class="videoColeWebley">
@@ -206,7 +229,7 @@
           A video solution perfect for everyone
         </h2>
         <p id="textoSolutionPerfect">
-          Whether you’re a seasoned pro or just starting out, Vimeo’s intuitive
+          Whether you're a seasoned pro or just starting out, Vimeo's intuitive
           platform makes it easy to upload, manage, and share your videos with
           complete control over privacy and distribution.
         </p>
@@ -548,33 +571,32 @@
 
       <div class="redesLenguaje">
         <div class="redesSociales">
-          <img src="img/redesSociales/instagram.svg" alt="">
-          <img src="img/redesSociales/x.svg" alt="">
-          <img src="img/redesSociales/facebook.svg" alt="">
-          <img src="img/redesSociales/linke.svg" alt="">
+          <img src="img/redesSociales/instagram.svg" alt="Instagram">
+          <img src="img/redesSociales/x.svg" alt="X (Twitter)">
+          <img src="img/redesSociales/facebook.svg" alt="Facebook">
+          <img src="img/redesSociales/linke.svg" alt="LinkedIn">
         </div>
-        <label for="">Lenguage:</label>
-        <select name="" id="">
-          <option value="">English</option>
-          <option value="">Español</option>
-          <option value="">Deutsch</option>
-          <option value="">Français</option>
-          <option value="">Portugés</option>
-        </select>
-      </div>
-
-      <div class="finalFooter">
-        <p>
-          © 2025 Vimeo.com, Inc. All rights reserved.
-          <span>
+        <div class="languageSelector">
+          <label for="languageSelect">Language:</label>
+          <select name="language" id="languageSelect">
+            <option value="en">English</option>
+            <option value="es">Español</option>
+            <option value="de">Deutsch</option>
+            <option value="fr">Français</option>
+            <option value="pt">Português</option>
+          </select>
+        </div>
+        <div class="footerRight">
+          <p class="copyright">© 2025 Vimeo.com, Inc. All rights reserved.</p>
+          <div class="footerLinks">
             <a href="">Terms</a>
             <a href="">Privacy</a>
             <a href="">U.S. State Privacy</a>
             <a href="">Copyright</a>
             <a href="">Cookies</a>
             <a href="">Accessibility</a>
-          </span>
-        </p>
+          </div>
+        </div>
       </div>
     </footer>
   </body>
